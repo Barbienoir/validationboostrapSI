@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+     font-family: "Roboto Condensed", sans-serif;
+}
+.btn-buynow{
+    background-color: #00BA94;
+}
+.part1{
+    background-color: #3e24c2;
+}

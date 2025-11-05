@@ -3,308 +3,398 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>SB UI Kit Pro Clone</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RSD3S19Ld2yX6v1/1+VqQpE72a8qT+O66o+5dE1u5O6hX+Jm5N7qN0E4jWw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-      <div class="container  d-flex justify-content-evenly">
-        <a class="navbar-brand" href="#">SB UI Kit Pro</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container-fluid px-0">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top py-4">
+        <div
+          class="container d-flex justify-content-between align-items-center"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true" href="#"
-                >Landing</a
-              >
-            </li>
+          <a class="navbar-brand fw-bold" href="#">SB UI Kit **Pro**</a>
 
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true"
-                >Documentation</a
-              >
-            </li>
-          </ul>
-          <button class="btn btn-buynow rounded-4">Buy Now --></button>
-        </div>
-      </div>
-    </nav>
-    <!-- Partie1 -->
-     <div class="part1 p-4 text-white rounded-bottom-5">
-        <div class="container">
-            <div class="row d-flex text-align-center">
-                <div class="col-md-6 p-5">
-                    <h1>Build your next project faster with SB UI Kit Pro</h1>
-                    <p>Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the developmet team at Start Bootstrap</p>
-                    <button class="btn btn-buynow rounded-4">VIEW DEMO</button>
-                </div>
-                <div class="col-md-6">
-                    <img src="./img/drawkit-content-man-color.svg" alt="">
-                </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Landings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Documentation</a>
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-block">
+              <button class="btn btn-primary fw-bold rounded-3">
+                BUY NOW <i class="fa-solid fa-arrow-right ms-2"></i>
+              </button>
             </div>
+          </div>
         </div>
+      </nav>
     </div>
 
-    <!-- part1 -->
-     <div class="container ">
-        <div class="container text-align-center">
-            <button>12Demos</button>
-            <h4>Landing Pages</h4>
-            <p>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</p>
-        </div>
-        <!-- I -->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card1.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
+    <header class="part1 pt-5">
+      <div class="container pt-5">
+        <div class="row d-flex align-items-center text-light pt-5">
+          <div class="col-md-6 pt-5">
+            <h1 class="display-4 fw-bold mb-3">
+              Build your next project faster with **SB UI Kit Pro**
+            </h1>
+            <p class="lead mb-4 opacity-75 fs-5">
+              Welcome to SB UI Kit Pro, a toolkit for building beautiful
+              web interfaces, created by the developmet team at
+              **Start Bootstrap**
+            </p>
+            <div class="d-flex align-items-center">
+              <button class="btn btn-buynow fw-bold rounded-3 px-4 py-2 me-4">
+                VIEW DEMO <i class="fa-solid fa-arrow-right ms-2"></i>
+              </button>
+              <a href="#" class="text-light fw-bold text-decoration-none"
+                >DOCUMENTATION</a
+              >
             </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card2.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card3.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-        </div>
-        <!-- II -->
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card7.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card8.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card9.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-        </div>
-        <!-- III -->
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card10.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card11.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/card12.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-        </div>
-  
- 
-     </div>
-     <!-- part3 -->
-      <div class="container text-align-center">
-            <button>12Demos</button>
-            <h4>Inner Pages</h4>
-            <p>A group of pre-build inner page demos are available to get your started when building out the rest of your project!</p>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item">A third item</li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- part5 -->
-      <div class="container">
-            <div class="container text-align-center">
-            <button>12Demos</button>
-            <h4>Header Examples</h4>
-            <p>Build your own landing page by starting with one of these customizable header examples! You can customize the colors, content, borders, and more!</p>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo1.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo2.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo3.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-        </div>
-        <!--  -->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo4.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo5.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
-            </div>
-            <div class="col-md-4">
-                        <p>Demo1: multipurpsoe</p>
-                    <div class="card">
-                        <img src="./img/demo6.jpg" class="card-img-top" alt="...">
-                        
-                    </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="./img/drawkit-content-man-color.svg"
+              class="img-fluid"
+              alt="Illustration de la démo"
+              style="max-height: 400px; margin-top: 50px;"
+            />
             </div>
         </div>
       </div>
-      <!-- part6 -->
-       <div class="container text-align-center">
-            <h4>Documentation</h4>
-            <p>Comprehensive documentation includes usage instructions, component reference, and utility class usage instructions</p>
+    </header>
+
+    <section class="py-5" style="background-color: #f7f9fc">
+      <div class="container mt-5 pt-5">
+        <div class="text-center mb-5">
+          <button class="btn btn-order fw-bold rounded-5 px-3 py-1 mb-3">
+            12 Demos
+          </button>
+          <h2 class="fw-bold mb-3">Landing Pages</h2>
+          <p class="lead text-muted mx-auto" style="max-width: 600px">
+            When you purchase this UI Kit, you get access to a robust suite of
+            powerful landing page demos to help you get started.
+          </p>
         </div>
-    <!-- part 7S -->
-     <div class="container">
-            <div class="card-group">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-     </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-5 mb-5">
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 1 - Multipurpose</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card1.jpg" class="card-img-top rounded-4" alt="Multipurpose Demo" />
+            </div>
+          </div>
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 2 - Mobile App</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card2.jpg" class="card-img-top rounded-4" alt="Mobile App Demo" />
+            </div>
+          </div>
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 3 - Desktop App</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card3.jpg" class="card-img-top rounded-4" alt="Desktop App Demo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-5 mb-5">
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 4 - Agency</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card7.jpg" class="card-img-top rounded-4" alt="Agency Demo" />
+            </div>
+          </div>
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 5 - Lead Capture</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card8.jpg" class="card-img-top rounded-4" alt="Lead Capture Demo" />
+            </div>
+          </div>
+          <div class="col">
+            <p class="fw-bold text-center mb-2">Demo 6 - Press</p>
+            <div class="card card-hover shadow-lg border-0 rounded-4">
+              <img src="./img/card9.jpg" class="card-img-top rounded-4" alt="Press Demo" />
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container pt-5">
+        <div class="text-center mb-5">
+          <button class="btn btn-order fw-bold rounded-5 px-3 py-1 mb-3">
+            19 Demos
+          </button>
+          <h2 class="fw-bold mb-3">Inner Pages</h2>
+          <p class="lead text-muted mx-auto" style="max-width: 700px">
+            A group of pre-built inner page demos are available to get you started
+            when building out the rest of your project!
+          </p>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <ul class="list-group list-group-flush border rounded-4 shadow-sm">
+                    <li class="list-group-item fw-bold text-primary bg-light">Account Pages</li>
+                    <li class="list-group-item text-muted">Profile Page</li>
+                    <li class="list-group-item text-muted">Billing Page</li>
+                    <li class="list-group-item text-muted">Security Page</li>
+                    <li class="list-group-item text-muted">Social Page</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <ul class="list-group list-group-flush border rounded-4 shadow-sm">
+                    <li class="list-group-item fw-bold text-primary bg-light">Auth Pages</li>
+                    <li class="list-group-item text-muted">Login</li>
+                    <li class="list-group-item text-muted">Register</li>
+                    <li class="list-group-item text-muted">Forgot Password</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <ul class="list-group list-group-flush border rounded-4 shadow-sm">
+                    <li class="list-group-item fw-bold text-primary bg-light">Utility Pages</li>
+                    <li class="list-group-item text-muted">Pricing</li>
+                    <li class="list-group-item text-muted">FAQ</li>
+                    <li class="list-group-item text-muted">Terms</li>
+                    <li class="list-group-item text-muted">Contact</li>
+                    <li class="list-group-item text-muted">Blog</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <ul class="list-group list-group-flush border rounded-4 shadow-sm">
+                    <li class="list-group-item fw-bold text-primary bg-light">Error Pages</li>
+                    <li class="list-group-item text-muted">401 Page</li>
+                    <li class="list-group-item text-muted">404 Page</li>
+                    <li class="list-group-item text-muted">500 Page</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <ul class="list-group list-group-flush border rounded-4 shadow-sm">
+                    <li class="list-group-item fw-bold text-primary bg-light">Other Pages</li>
+                    <li class="list-group-item text-muted">Blank Page</li>
+                    <li class="list-group-item text-muted">Coming Soon</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #f7f9fc">
+        <div class="container pt-5">
+            <div class="text-center mb-5">
+                <button class="btn btn-order fw-bold rounded-5 px-3 py-1 mb-3">Customize</button>
+                <h2 class="fw-bold mb-3">Header Examples</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 600px">
+                    Build your own landing page by starting with one of these customizable
+                    header examples! You can customize the colors, content, borders, and more!
+                </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-5 mb-5">
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 1: Basic</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo1.jpg" class="card-img-top rounded-4" alt="Header Basic Demo" />
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 2: Basic (Signup)</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo2.jpg" class="card-img-top rounded-4" alt="Header Basic Signup Demo" />
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 3: Graphic</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo3.jpg" class="card-img-top rounded-4" alt="Header Graphic Demo" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-5 mb-5">
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 4: Graphic (Sign In)</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo4.jpg" class="card-img-top rounded-4" alt="Header Graphic Sign In Demo" />
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 5: Inner Page</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo5.jpg" class="card-img-top rounded-4" alt="Header Inner Page Demo" />
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="fw-bold text-center mb-2">Demo 6: Nav Only</p>
+                    <div class="card card-hover shadow-lg border-0 rounded-4">
+                        <img src="./img/demo6.jpg" class="card-img-top rounded-4" alt="Header Nav Only Demo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-center">
+      <div class="container pt-5">
+        <h3 class="fw-normal display-6 mb-4">Documentation</h3>
+        <p class="text-muted lead mx-auto" style="max-width: 600px">
+          Comprehensive documentation includes usage instructions, component
+          reference, and utility class usage instructions
+        </p>
+
+        <div class="row align-items-start justify-content-center pt-5 pb-5">
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-5 mb-md-0">
+            <h1 class="display-1 fw-bold mb-3 number-color">70+</h1>
+            <h5 class="fw-bold mb-3">Custom/Extended Components</h5>
+            <p class="text-muted small-text mx-auto" style="max-width: 250px;">
+              We've extended and restyled Bootstrap's default components, and
+              built a suite of new custom components.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-5 mb-md-0">
+            <h1 class="display-1 fw-bold mb-3 number-color">35+</h1>
+            <h5 class="fw-bold mb-3">Pre-Built Page Examples</h5>
+            <p class="text-muted small-text mx-auto" style="max-width: 250px;">
+              Our pre-built page examples are a perfect way to get inspired for
+              creating new pages and views.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1 class="display-1 fw-bold mb-3 number-color">100+</h1>
+            <h5 class="fw-bold mb-3">Custom/Extended Utilites</h5>
+            <p class="text-muted small-text mx-auto" style="max-width: 250px;">
+              We've extended and created new utility classes to give you more
+              control over your content with minimal custom CSS.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4">
+          <div class="col-12">
+            <a
+              href="#"
+              class="btn btn-primary btn-lg px-4 py-3 fw-bold shadow-lg text-uppercase rounded-3"
+              >VIEW DOCUMENTATION</a
+            >
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-white pt-5 pb-5 border-top" style="background-color: #f7f9fc !important;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="fw-bold mb-3 text-dark">SB UI Kit **Pro**</h6>
+                    <p class="text-muted small">Build better websites</p>
+                    <div class="social-icons mt-3 fs-5">
+                        <a href="#" class="text-muted me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-3 small">Product</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none small">Landing</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Pages</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Sections</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Documentation</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Changelog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-3 small">Technical</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none small">Documentation</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Changelog</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Theme Customizer</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">UI Kit</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-3 small">Includes</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none small">Utilities</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Components</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Layouts</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Code Samples</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Products</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Affiliates</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Updates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-3 small">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none small">Privacy Policy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">Terms and Conditions</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none small">License</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="text-muted opacity-25">
+
+            <div class="row pt-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-muted mb-0">Copyright &copy; Your Website 2025</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="small text-muted mb-0"><a href="#" class="text-muted text-decoration-none">Privacy Policy</a> &middot; <a href="#" class="text-muted text-decoration-none">Terms &amp; Conditions</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

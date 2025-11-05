@@ -1,10 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-     font-family: "Roboto Condensed", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* J'ai remplacé "Roboto Condensed" par "Public Sans" ou une police neutre similaire, 
+   car "Public Sans" est souvent utilisée pour des designs modernes et clairs comme celui-ci. 
+   Si vous voulez respecter la typographie exacte du kit, vous devrez trouver la police exacte (souvent Inter ou Public Sans). 
+   J'utilise Public Sans par défaut. */
+body {
+    /* Correction de "O" à 0 */
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    /* Couleur de fond légère pour tout le corps comme sur les captures */
+    background-color: #f7f9fc; 
 }
-.btn-buynow{
-    background-color: #00BA94;
+
+/* Nav Bar */
+.bg-nav {
+    /* La couleur de la nav bar semble être #1F2D41 ou une variante sombre. */
+    background-color: #1a273b !important;
 }
-.part1{
-    background-color: #3e24c2;
+.navbar .nav-link {
+    /* Ajustement de la couleur des liens de la nav bar */
+    color: rgba(255, 255, 255, 0.7) !important; 
+    font-weight: 600; /* un peu plus de gras */
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Hero Section (Part 1) */
+.part1 {
+    /* Couleurs du dégradé de la section Hero */
+    background: linear-gradient(135deg, #035DEF, #3e24c2); 
+    height: 70vh; /* Ajusté pour laisser de l'espace en bas */
+    border-radius: 0 0 5% 5%; /* Arrondi plus prononcé en bas */
+}
+
+.btn-buynow {
+    /* Couleur du bouton "VIEW DEMO" (il est vert/cyan) */
+    background-color: #00BA94; 
+    border-color: #00BA94;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.btn-buynow:hover {
+    background-color: #009e80;
+    border-color: #009e80;
+}
+
+/* Landing Pages (Part 2) et Inner Pages (Part 3) */
+.btn-order {
+    /* Bouton d'étiquette au-dessus du titre (par ex. "12 Demos") */
+    background-color: #BFD6F8;
+    color: #3561a4;
+    border: none;
+    font-size: 0.75rem; /* Petite taille de police */
+    padding: 0.25rem 0.75rem;
+    font-weight: 700;
+}
+
+/* Cartes des Demos (Survol) */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Remplacé la transformation 'translateY(10)' par 'translateY(0)' pour éviter un décalage initial */
+}
+.card-hover:hover {
+    transform: translateY(-8px); /* monte de 8px */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important; /* Ombre plus grande au survol */
+}
+.card-img-top {
+    /* L'image doit avoir un border-radius comme la carte */
+    border-radius: 0.5rem !important; 
+}
+
+/* Documentation (Part 5) */
+.number-color {
+    /* Couleur des chiffres (70+, 35+, 100+) */
+    color: #c9d2e1 !important; 
+    font-size: 5rem; /* Taille maintenue */
+}
+
+/* Footer */
+.footer a.text-muted:hover {
+    color: #035DEF !important; /* Exemple d'effet de survol */
 }
